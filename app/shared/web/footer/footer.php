@@ -4,7 +4,7 @@ echo '<div class="ui orange inverted footer vertical segment">
         <div class="ui stackable center aligned page grid">
         <div class="ui one column center aligned stackable grid">
             <div class="column">
-                <h5 class="ui inverted header">Contactanos</h5>
+                <h5 class="ui inverted header">Contáctenos</h5>
                 <addr>
                     Fundacion ASUPAT<br>
                     Turrialba, Costa Rica<br>
