@@ -13,9 +13,9 @@
                 <?php include '../../shared/web/sidebar/sidebarCMS.php'; ?>
 
                 <div class="span9">
-                    <h1 class="page-title">List of Projects</h1>
+                    <h1 class="page-title">Galería</h1>
                     <div class="btn-toolbar">
-                        <button class="btn btn-primary"><i class="icon-plus"></i> New Project</button>
+                        <button class="btn btn-primary" ><i class="icon-plus"></i> Nueva Foto</button>
 
                         <div class="btn-group">
                         </div>
@@ -25,24 +25,20 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Title</th>
-                                    <th>Description</th>
-                                    <th>Client</th>
-                                    <th>Course</th>
-                                    <th>Date</th>
+                                    <th>Descripción</th>
+                                    <th>Categoría</th>
+                                    <th>Fecha</th>
                                     <th style="width: 26px;"></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Loan Servicing</td>
-                                    <td>This project is an Loan Servicing app...</td>
-                                    <td>JCF INVERSIONES</td>
-                                    <td>Desing Project</td>
-                                    <td>February 2015</td>
+                                    <td>Actividad Mensual</td>
+                                    <td>Eventos</td>
+                                    <td>11-12-2015</td>
                                     <td>
-                                        <a href="editPortfolio.html"><i class="icon-pencil"></i></a>
+                                        <a href="editGaleria.php"><i class="icon-pencil"></i></a>
                                         <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
                                     </td>
                                 </tr>
@@ -57,23 +53,11 @@
                         </ul>
                     </div>
 
-                    <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h3 id="myModalLabel">Delete Confirmation</h3>
-                        </div>
-                        <div class="modal-body">
-                            <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the item?</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-                            <button class="btn btn-danger" data-dismiss="modal">Delete</button>
-                        </div>
-                    </div>
-
+                    <?php include '../../shared/web/modal/modalCMS.php'; ?>
                 </div>
             </div>
-            <?php include '../../shared/web/footer/footerCMS.php'; ?>
+        </div>
+        <?php include '../../shared/web/footer/footerCMS.php'; ?>
 
     </body>
 </html>
