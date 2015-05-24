@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ASUPAT | Voluntarios</title>
+    <title>ASUPAT | FeedBack</title>
     
     <?php include '../../shared/web/header/header.php'; ?>
     <script src="feedback.js"></script>
