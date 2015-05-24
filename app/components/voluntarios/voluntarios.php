@@ -103,7 +103,7 @@
     <div class="ui blue inverted piled segment">
         <h4 class="ui horizontal header divider">
             <i class="loading circular doctor icon"></i>
-            Actuales voluntarios
+            Actuales Voluntarios
         </h4>
         <div class="ui red cards">
             <div class="card">
