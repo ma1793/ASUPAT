@@ -41,6 +41,8 @@
                         <i class="resize vertical icon"></i>
                     </h4>
                     
+                    
+                    
                     <div class="content" id="perfil uno" style="display: none">
                         <div class="meta">
                             <span>Perfil</span>

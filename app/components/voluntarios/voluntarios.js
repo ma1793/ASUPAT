@@ -4,6 +4,14 @@ $(document).ready(function(){
         .dropdown()
     ;
     
+    $('.trigger.example .accordion')
+  .accordion({
+    selector: {
+      trigger: '.title .icon'
+    }
+  })
+;
+    
 });
 
 function mostrarPerfil(perfil) {
