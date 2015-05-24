@@ -4,7 +4,6 @@
         <?php include '../../shared/web/header/header.php'; ?>
 
         <script src="tableroAdopciones.js"></script>
-
     </head>
     <body id="home">
         <?php include '../../shared/web/menu/menu.php'; ?>
@@ -22,84 +21,75 @@
                         <div class="three column centered row">
                             <div class="column">
                                 <div class="ui special cards">
-                                    <div class="card">
+                                     <div class="card">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
                                                         <div class="ui inverted button">Adoptar</div>
+                                                        <p>Aqui va la Informacion de la mascota</p>
                                                     </div>
+                                                   
+
                                                 </div>
                                             </div>
                                             <img src="../../../assets/images/wireframe/elliot.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header"> <i class="paw icon"></i>Raza:</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Fecha Ingreso:</span>
                                             </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="users icon"></i>
-                                                2 Members
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="ui special cards">
-                                    <div class="card">
+                                     <div class="card">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
                                                         <div class="ui inverted button">Adoptar</div>
+                                                        <p>Aqui va la Informacion de la mascota</p>
                                                     </div>
+                                                   
+
                                                 </div>
                                             </div>
                                             <img src="../../../assets/images/wireframe/elliot.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header"> <i class="paw icon"></i>Raza:</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Fecha Ingreso:</span>
                                             </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="users icon"></i>
-                                                2 Members
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="ui special cards">
-                                    <div class="card">
+                                     <div class="card">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
                                                         <div class="ui inverted button">Adoptar</div>
+                                                        <p>Aqui va la Informacion de la mascota</p>
                                                     </div>
+                                                   
+
                                                 </div>
                                             </div>
                                             <img src="../../../assets/images/wireframe/elliot.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header"> <i class="paw icon"></i>Raza:</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Fecha Ingreso:</span>
                                             </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="users icon"></i>
-                                                2 Members
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -119,22 +109,44 @@
                                                 <div class="content">
                                                     <div class="center">
                                                         <div class="ui inverted button">Adoptar</div>
+                                                        <p>Aqui va la Informacion de la mascota</p>
                                                     </div>
+                                                   
+
                                                 </div>
                                             </div>
                                             <img src="../../../assets/images/wireframe/elliot.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header"> <i class="paw icon"></i>Raza:</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Fecha Ingreso:</span>
                                             </div>
                                         </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="users icon"></i>
-                                                2 Members
-                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="ui special cards">
+                                     <div class="card">
+                                        <div class="dimmable image">
+                                            <div class="ui dimmer">
+                                                <div class="content">
+                                                    <div class="center">
+                                                        <div class="ui inverted button">Adoptar</div>
+                                                        <p>Aqui va la Informacion de la mascota</p>
+                                                    </div>
+                                                   
+
+                                                </div>
+                                            </div>
+                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header"> <i class="paw icon"></i>Raza:</a>
+                                            <div class="meta">
+                                                <span class="date">Fecha Ingreso:</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -147,50 +159,19 @@
                                                 <div class="content">
                                                     <div class="center">
                                                         <div class="ui inverted button">Adoptar</div>
+                                                        <p>Aqui va la Informacion de la mascota</p>
                                                     </div>
+                                                   
+
                                                 </div>
                                             </div>
                                             <img src="../../../assets/images/wireframe/elliot.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header"> <i class="paw icon"></i>Raza:</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Fecha Ingreso:</span>
                                             </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="users icon"></i>
-                                                2 Members
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="ui special cards">
-                                    <div class="card">
-                                        <div class="dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <div class="ui inverted button">Adoptar</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
-                                        </div>
-                                        <div class="content">
-                                            <a class="header">Team Fu</a>
-                                            <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="users icon"></i>
-                                                2 Members
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
