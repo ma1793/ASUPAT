@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ASUPAT | Voluntarios</title>
+    <title>ASUPAT | Padrinos</title>
     
     <?php include '../../shared/web/header/header.php'; ?>
     <script src="padrinos.js"></script>
