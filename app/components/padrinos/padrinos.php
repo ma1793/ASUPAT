@@ -211,6 +211,7 @@
             </div>
         </div>
     </div>
+    
     <div class="ui blue inverted piled segment">
         <h4 class="ui horizontal header divider">
             <i class="circular thumbs up  icon"></i>
