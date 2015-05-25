@@ -15,7 +15,7 @@
                 <div class="span9">
                     <h1 class="page-title">Galería</h1>
                     <div class="btn-toolbar">
-                        <button class="btn btn-primary" ><i class="icon-plus"></i> Nueva Foto</button>
+                        <button class="btn btn-primary" href="editGaleria.php?modo=a" ><i class="icon-plus"></i> Nueva Foto</button>
 
                         <div class="btn-group">
                         </div>
@@ -38,7 +38,7 @@
                                     <td>Eventos</td>
                                     <td>11-12-2015</td>
                                     <td>
-                                        <a href="editGaleria.php"><i class="icon-pencil"></i></a>
+                                        <a href="editGaleria.php?modo=b"><i class="icon-pencil"></i></a>
                                         <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
                                     </td>
                                 </tr>
