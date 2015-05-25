@@ -13,7 +13,7 @@
             <div class="row-fluid">
                 <?php include '../../shared/web/sidebar/sidebarCMS.php'; ?>
                 <div class="span9">
-                    <h1 class="page-title">Editar Información de Contacto</h1>
+                    <h1 class="page-title">Editar Archivos Educación</h1>
                     <div class="btn-toolbar">
                         <button class="btn btn-primary"><i class="icon-save"></i> Actualizar</button>
                         
