@@ -2,6 +2,12 @@
 <html lang="en">
     <head>
         <?php include '../../shared/web/header/headerCMS.php'; ?>
+        <style>
+button.hidden {
+    visibility: hidden;
+}
+</style>
+        
     </head>
     <body>
         <?php include '../../shared/web/menu/menuCMS.php'; ?>
@@ -15,8 +21,10 @@
                 <div class="span9">
                     <h1 class="page-title">Galería</h1>
                     <div class="btn-toolbar">
-                        <button class="btn btn-primary" href="editGaleria.php?modo=a" ><i class="icon-plus"></i> Nueva Foto</button>
-
+                        <form action="editGaleria.php?modo=a" method="get">
+                            <input class="hidden" type="text" name="modo" value="a"><br>
+                        <button class="btn btn-primary" type="submit"><i class="icon-plus"></i> Nueva Foto</button>
+                        </form>
                         <div class="btn-group">
                         </div>
                     </div>
