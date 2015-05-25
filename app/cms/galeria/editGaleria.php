@@ -5,13 +5,14 @@
 
     </head>
     <body>
-
+        
         <?php include '../../shared/web/menu/menuCMS.php'; ?>
 
         <div class="container-fluid">
 
             <div class="row-fluid">
-                <?php include '../../shared/web/sidebar/sidebarCMS.php'; ?>
+                <?php include '../../shared/web/sidebar/sidebarCMS.php'; 
+                $modo = $_GET["modo"]; ?>
 
 
                 <div class="span9">
