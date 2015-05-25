@@ -1,12 +1,13 @@
 <?php include 'conectarDB.php';
 $CurNom = $_POST["nombreIm"];
-$CurCod = $_POST["urlIm"];
+//$CurCod = $_POST["urlIm"];
 $catIm = $_POST["catIm"];
-$idIm = $_POST["idIm"];
+//$idIm = $_POST["idIm"];
 $modoIm = $_POST["modoIm"];
 
 $target_dir = "images/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$CurCod = $target_file;
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
