@@ -13,10 +13,9 @@
                 <?php include '../../shared/web/sidebar/sidebarCMS.php'; ?>
 
                 <div class="span9">
-                    <h1 class="page-title">Galería</h1>
+                    <h1 class="page-title">Tablero de Adopciones</h1>
                     <div class="btn-toolbar">
-                        <button class="btn btn-primary" ><i class="icon-plus"></i> Nueva Foto</button>
-
+                        <button class="btn btn-primary" ><i class="icon-plus"></i> Nueva Adopción</button>
                         <div class="btn-group">
                         </div>
                     </div>
@@ -25,8 +24,8 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Descripción</th>
-                                    <th>Categoría</th>
+                                    <th>Raza</th>
+                                    <th>Información</th>
                                     <th>Fecha</th>
                                     <th style="width: 26px;"></th>
                                 </tr>
@@ -34,11 +33,11 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Actividad Mensual</td>
-                                    <td>Eventos</td>
+                                    <td>Beagle</td>
+                                    <td>5 Meses</td>
                                     <td>11-12-2015</td>
                                     <td>
-                                        <a href="editGaleria.php"><i class="icon-pencil"></i></a>
+                                        <a href="editTablero.php"><i class="icon-pencil"></i></a>
                                         <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
                                     </td>
                                 </tr>

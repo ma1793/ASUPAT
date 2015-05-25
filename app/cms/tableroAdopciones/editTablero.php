@@ -15,7 +15,7 @@
 
 
                 <div class="span9">
-                    <h1 class="page-title">Editar Fotografía</h1>
+                    <h1 class="page-title">Editar Mascota en Adopción</h1>
                     <div class="btn-toolbar">
                         <button class="btn btn-primary"><i class="icon-save"></i> Actualizar</button>
                         <a href="#myModal" data-toggle="modal" class="btn">Eliminar</a>
@@ -24,23 +24,20 @@
                     </div>
                     <div class="well">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#home" data-toggle="tab">Información de la Fotografía</a></li>
+                            <li class="active"><a href="#home" data-toggle="tab">Información de la Mascota</a></li>
                             <li><a href="#profile" data-toggle="tab">Archivo Fotografía</a></li>
                         </ul>
                         <div id="myTabContent" class="tab-content">
                             <div class="tab-pane active in" id="home">
                                 <form id="tab">          
-                                    <label>Descripción</label>
+                                    <label>Raza</label>
                                     <input type="text" value="" >
-                                    <label>Categoría</label>
-                                    <div class="form-group">
-                                        <select class="form-control" name="categoria">
-                              
-                                            <option value="0">Eventos</option>
-                                            <option value="1">Animales Adoptados</option>
-                                            <option value="2">Finales Felices</option>
-                                        </select>     
-                                    </div>
+                                    
+                                    <label>Informacíon</label>
+                                    <input type="text" value="" >
+                                    
+                                    <label>Fecha</label>
+                                    <input type="date" value="" >
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="profile">
