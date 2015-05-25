@@ -30,23 +30,24 @@
                         </ul>
                         <div id="myTabContent" class="tab-content">
                             <div class="tab-pane active in" id="home">
-                                <form id="tab">          
+                                <form id="tab" action="galeriaC.php">          
                                     <label>Descripción</label>
-                                    <input type="text" value="" >
+                                    <input type="text" value="" name="nombreIm" >
                                     <label>Categoría</label>
                                     <div class="form-group">
-                                        <select class="form-control" name="categoria">
+                                        <select class="form-control" name="catIm">
                               
                                             <option value="0">Eventos</option>
                                             <option value="1">Animales Adoptados</option>
                                             <option value="2">Finales Felices</option>
                                         </select>     
                                     </div>
+                                    <input type="file" name="fileToUpload" id="fileToUpload">
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="profile">
                                 <form id="tab2">       
-                                    <input type="file">
+                                    
                                 </form>
                             </div>
                         </div>
