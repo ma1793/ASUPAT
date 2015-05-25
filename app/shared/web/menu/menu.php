@@ -9,16 +9,16 @@ echo '<div class="ui inverted masthead segment">
                     </div>
                     <div class="ui large menu">
                         <div class="ui inverted orange menu">
-                            <div class="header item">ASUPAT</div>
+                            <a  href="../../components/home/homeAsu.php"><div class="header item"  >ASUPAT</div></a>
+                            
                             <div class="right menu">
-
-                                <a class="item">Galería</a>
-                                <a class="item">Donaciones</a>
-                                <a class="item">Eventos</a>
-                                <a class="item">Padrinos</a>
-                                <a class="item">Adopciones</a>
-                                <a class="item">Tienda</a>
-                                <a class="item">Acerca de</a>
+                                <a class="item" href="../../components/galeria/galeria.php">Galería</a>
+                                <a class="item" href="../../components/donaciones/donaciones.php">Donaciones</a>
+                                <a class="item" href="../../components/educacion/educacion.php">Educación</a>
+                                <a class="item" href="../../components/padrinos/padrinos.php">Padrinos</a>
+                                <a class="item" href="../../components/tableroAdopciones/tableroAdopciones.php">Adopciones</a>
+                                <a class="item" >Tienda</a>
+                                <a class="item" href="../../components/acerca/acerca.php">Acerca de</a>
                             </div>
                         </div>
                     </div>
