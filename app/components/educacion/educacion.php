@@ -4,7 +4,6 @@
        
 
         <?php include '../../shared/web/header/header.php'; ?>
-        <script src="actividades.js"></script>
 
     </head>
     <body id="home">
