@@ -17,8 +17,28 @@ echo '<div class="ui inverted masthead segment">
                                 <a class="item" href="../../components/educacion/educacion.php">Educación</a>
                                 <a class="item" href="../../components/padrinos/padrinos.php">Padrinos</a>
                                 <a class="item" href="../../components/tableroAdopciones/tableroAdopciones.php">Adopciones</a>
-                                <a class="item" >Tienda</a>
-                                <a class="item" href="../../components/acerca/acerca.php">Acerca de</a>
+                                <div class="ui dropdown item">
+                                    Acerca de Nosotros <i class="dropdown icon"></i>
+                                    <div class="menu">
+                                        <a href="../../components/acerca/acerca.php" class="item">Definición</a>
+                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Mision y Vision</a>
+                                        <a href="../../components/actividades/actividades.php" class="item">Actividades</a>
+                                    </div>
+                                </div>
+                                <div class="ui dropdown item">
+                                    Otras Actividades <i class="dropdown icon"></i>
+                                    <div class="menu">
+                                        <a href="../../components/acerca/acerca.php" class="item">Entrenamiento</a>
+                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Tienda</a>                                           
+                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Consejos Mascota</a>  
+                                        <a href="../../components/voluntarios/voluntarios.php" class="item">Voluntarios</a>
+                                        <a href="../../components/feedback/feedback.php" class="item">FeedBack</a>
+                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Preguntas Frecuentes</a>
+                                        <a href="../../components/enlacesInteres/enlacesInteres.php" class="item">Enlaces de Interes</a>
+                                        <a href="../../components/mapaSitio/mapaSitio.php" class="item">Mapa del Sitio </a>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
