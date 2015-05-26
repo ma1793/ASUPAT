@@ -6,7 +6,6 @@
     </head>
     <body id="home">
         <?php include '../../shared/web/menu/menu.php'; ?>
-
         <div class="ui vertical segment">
             <div class="ui very relaxed stackable page grid">
                 <div class="row">
@@ -40,7 +39,7 @@
                             </div>
                             <p>Explora el interés de ASUPAT por generar una cultura que proteje a los animales.</p>
                             <p>
-                                <a class="ui button" href="#">
+                                <a class="ui button" href="..\educacion\educacion.php">
                                     Explorar
                                 </a>
                             </p>
@@ -52,7 +51,7 @@
                             </div>
                             <p>Descubre como puedes apoyar a ASUPAT. Y aprobar tu TCU.</p>
                             <p>
-                                <a class="ui white right labeled icon button" href="#">
+                                <a class="ui white right labeled icon button" href="..\voluntarios\voluntarios.php">
                                     Descubrir
                                     <i class="right chevron icon"></i>
                                 </a>
@@ -65,7 +64,7 @@
                             </div>
                             <p>Mira fotos de eventos de ASUPAT y algunas de sus historias.
                             <p>
-                                <a class="ui button" href="#">
+                                <a class="ui button" href="..\galeria\galeria.php">
                                     Visitar
                                 </a>
                             </p>
@@ -85,43 +84,21 @@
                         <div class="ui horizontal divider"><i class="heart icon"></i></div>
                     </div>
                 </div>
-                <div class="five column logo row">
+                <div class="two column logo row">
                     <div class="column">
-                        <div class="ui shape">
+                        <div class="ui shape" onclick="javascript:location.href='https://www.facebook.com/pages/Unidos-por-los-animales-Turrialba/108537129198963?fref=ts'">
                             <div class="sides">
                                 <div class="side">
-                                    <i class="huge facebook icon"></i>
+                                    <i  class="huge facebook icon"></i>
                                 </div>
-                                <div class="side">
+                                <div class="active side">
                                     <i class="huge facebook square icon"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="ui shape">
-                            <div class="sides">
-                                <div class="side">
-                                    <i class="huge pinterest  icon"></i>
-                                </div>
-                                <div class="side">
-                                    <i class="huge pinterest square icon"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="ui shape">
-                            <div class="sides">
-                                <div class="side">
-                                    <i class="huge twitter icon"></i>
-                                </div>
-                                <div class="active side">
-                                    <i class="huge twitter square icon"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                   
                     <div class="column">
                         <div class="ui shape">
                             <div class="sides">
@@ -135,9 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="column"></div>
-                </div>
+                
             </div>
         </div>
 
