@@ -21,7 +21,7 @@
                         <div class="three column centered row">
                             <div class="column">
                                 <div class="ui special cards">
-                                     <div class="card">
+                                     <div class="card orange">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -46,7 +46,7 @@
                             </div>
                             <div class="column">
                                 <div class="ui special cards">
-                                     <div class="card">
+                                     <div class="card orange">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -71,7 +71,7 @@
                             </div>
                             <div class="column">
                                 <div class="ui special cards">
-                                     <div class="card">
+                                     <div class="card orange">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -103,7 +103,7 @@
                         <div class="three column centered row">
                             <div class="column">
                                 <div class="ui special cards">
-                                    <div class="card">
+                                    <div class="card orange">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -128,7 +128,7 @@
                             </div>
                             <div class="column">
                                 <div class="ui special cards">
-                                     <div class="card">
+                                     <div class="card orange">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -153,7 +153,7 @@
                             </div>
                             <div class="column">
                                 <div class="ui special cards">
-                                    <div class="card">
+                                    <div class="card orange">
                                         <div class="dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
