@@ -24,6 +24,10 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                 <div class="ui orange  pointing label">
+                                        Descripción 
+                                    </div>
+                                
                             </div>
                             <div class="column">
                                 <a class="ui orange card">
@@ -31,6 +35,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui orange  pointing label">
+                                        Descripción 
+                                    </div>
                             </div>
                             <div class="column">
                                 <a class="ui orange card">
@@ -63,6 +70,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui blue pointing label">
+                                        Descripción 
+                                    </div>
                             </div>
                             <div class="column">
                                 <a class="ui blue card">
@@ -70,6 +80,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui blue pointing label">
+                                        Descripción 
+                                    </div>
                             </div>
                             <div class="column">
                                 <a class="ui blue card">
@@ -77,6 +90,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui blue pointing label">
+                                        Descripción 
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -101,6 +117,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui orange pointing label">
+                                        Descripción 
+                                    </div>
                             </div>
                             <div class="column">
                                 <a class="ui orange card">
@@ -108,6 +127,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui orange pointing label">
+                                        Descripción 
+                                    </div>
                             </div>
                             <div class="column">
                                 <a class="ui orange card">
@@ -115,6 +137,9 @@
                                         <img src="../../../assets/images/wireframe/square-image.png">
                                     </div>
                                 </a>
+                                <div class="ui orange pointing label">
+                                        Descripción 
+                                </div>
                             </div>
                         </div>
                     </div>
