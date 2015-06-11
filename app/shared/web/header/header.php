@@ -13,5 +13,7 @@ echo '<!-- Standard Meta -->
 
     <script src="../../../assets/libs/jquery/jquery-2.1.3.min.js"></script>
     <script src="../../../assets/libs/Semantic-UI-1.12.2/semantic.min.js"></script>
+    <script src="../../../assets/js/rest.js"></script>
+     <script src="../../../assets/js/global.js"></script>
   
    ';

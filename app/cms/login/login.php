@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <?php include '../../shared/web/header/headerCMS.php'; ?>
+        <script src="login.js"></script>
+
     </head>
 
     <body>
@@ -23,21 +25,20 @@
                         <div class="block-heading">Sign In</div>
                         <div class="block-body">
                             <form>
-                                <label>Username</label>
-                                <input type="text" class="span12">
                                 <label>Password</label>
-                                <input type="password" class="span12">
-                                <a href="listPortfolio.html" class="btn btn-primary pull-right">Sign In</a>
-                                <label class="remember-me"><input type="checkbox"> Remember me</label>
+                                <input type="password" id="passwordLogin" class="span12">
+                                
+                                <a class="btn btn-primary pull-right" onclick="verifAdmin()">Sign In</a>
                                 <div class="clearfix"></div>
                             </form>
                         </div>
                     </div>
 
-                    <p><a href="">Forgot your password?</a></p>
+                    <p><a onclick="showPass()">Forgot your password?</a></p>
                 </div>
             </div>
     </body>
 </html>
+
 
 

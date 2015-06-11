@@ -36,6 +36,7 @@ echo '<div class="ui inverted masthead segment">
                                         <a href="../../components/mision_vision/mision_vision.php" class="item">Preguntas Frecuentes</a>
                                         <a href="../../components/enlacesInteres/enlacesInteres.php" class="item">Enlaces de Interes</a>
                                         <a href="../../components/mapaSitio/mapaSitio.php" class="item">Mapa del Sitio </a>
+                                        <a href="../../cms/login/login.php" class="item"><i class="user icon"></i><b>ADMIN</b></a>  
                                     </div>
                                 </div>
                                 

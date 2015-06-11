@@ -16,3 +16,10 @@ $(document).ready(function() {
     setInterval(changeSides, 3000);
     
 });
+
+function renderAbout(about){
+   $('#ID_about_definicion').text(about.definicion);
+   $("#ID_about_definicionImage").attr("src",about.imageLinkDefinicion);
+}
+
+getAbout();

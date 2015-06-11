@@ -11,18 +11,18 @@
                 <div class="row">
                     <div class="column">
                         <h1 class="center aligned ui header">
-                            ¿Qué es es ASUPAT?
+                            ¿Qué  es ASUPAT?
                         </h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="ten wide column">
                         <h2 class="ui header">Asociación Unidos por los Animales Turrialba</h2>
-                        <p>Somos una asociación sin fines de lucro conformado por un grupo de personas, que trabajamos voluntariamente por el bienestar animal, realizando campañas de castración en Turrialba y alrededores, como un intento por reducir la sobrepoblación de animales en nuestras calles.</p>
-                        <div class="ui blue button">Más sobre ASUPAT</div>
+                        <p style="text-align: justify;" id="ID_about_definicion"></p>
+                        <div class="ui blue button" onclick="javascript:location.href='../acerca/acerca.php'">Más sobre ASUPAT</div>
                     </div>
                     <div class="six wide column">
-                        <img class="ui small image" src="../../../assets/images/tDiceNo.jpg">
+                        <img class="ui image" id="ID_about_definicionImage" src="">
                     </div>
                 </div>
             </div>
