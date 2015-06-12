@@ -25,7 +25,7 @@ function idSeleccionado(indice){
 
 function eliminarItem(){
     deleteImagen(id);
-    getGaleria();
+    location.href = "../galeria/listaGaleria.php";
 };
 
 getGaleria();

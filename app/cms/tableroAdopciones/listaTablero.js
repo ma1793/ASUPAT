@@ -28,7 +28,7 @@ function idSeleccionado(indice){
 
 function eliminarItem(){
     deleteAdopcion(id);
-    getTableroAdopciones();
+    location.href = "../tableroAdopciones/listaTablero.php";
 };
 
 getTableroAdopciones();

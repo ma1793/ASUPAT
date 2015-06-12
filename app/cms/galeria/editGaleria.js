@@ -81,5 +81,8 @@ function ObtenerParametrosURL(){
 function formatURLParameter(url, name) {
     return (RegExp(name + '=' + '(.+?)(&|$)').exec(url)||[,null])[1];
 }
-
+function eliminarItem(){
+    deleteImagen(id);
+    location.href = "../galeria/listaGaleria.php";
+};
 ObtenerParametrosURL();

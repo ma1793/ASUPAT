@@ -91,4 +91,9 @@ function formatURLParameter(url, name) {
     return (RegExp(name + '=' + '(.+?)(&|$)').exec(url)||[,null])[1];
 }
 
+function eliminarItem(){
+    deleteAdopcion(id);
+    location.href = "../tableroAdopciones/listaTablero.php";
+};
+
 ObtenerParametrosURL();

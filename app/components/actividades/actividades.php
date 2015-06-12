@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ASUPAT | Actividades</title>
+    
     
     <?php include '../../shared/web/header/header.php'; ?>
     <script src="actividades.js"></script>
@@ -11,12 +11,12 @@
     <!-- Menu -->
     <?php include '../../shared/web/menu/menu.php'; ?>
     
-    <div class="ui green inverted vertical segment">
+    <div class="ui  vertical segment">
         <div class="ui very relaxed stackable page grid">
             <div class="row">
                 <div class="column">
                     <h1 class="center aligned ui header">
-                        ASUPAT | Calendario Institucional
+                         Calendario Institucional
                     </h1>
                     <div class="column">
                         <h4 class="center aligned ui header">
