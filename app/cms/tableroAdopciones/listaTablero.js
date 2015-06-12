@@ -15,7 +15,7 @@ function renderTableroAdopciones(adopciones) {
                 '<td>' + adopcion.fecha+ '</td>' +
                 '<td>' +
                 '<a href="../tableroAdopciones/editTablero.php?id=' + adopcion.idAdopcion + '&estado=1"><i class="icon-pencil"></i></a><br>' +
-                '<a href="#myModal" onclick="idSeleccionado('+index+')" role="button" data-toggle="modal"><i class="icon-remove"></i></a>' +
+                '<a href="#myModal" onclick="idSeleccionado('+adopcion.idAdopcion+')" role="button" data-toggle="modal"><i class="icon-remove"></i></a>' +
                 '</td>' +
                 '</tr>');
     });
@@ -23,7 +23,7 @@ function renderTableroAdopciones(adopciones) {
 
 
 function idSeleccionado(indice){
-   id = Adopciones[indice].idAdopcion;
+   id = indice;
 };
 
 function eliminarItem(){
