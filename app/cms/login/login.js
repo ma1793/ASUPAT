@@ -2,7 +2,7 @@
 function verifAdmin(){
   var password = document.getElementById("passwordLogin").value;
   if(password === "123"){
-      location.href = "../projects/listProjects.php";
+      location.href = "../contacto/editContacto.php";
   } 
   else{
       alert("Wrong Password");

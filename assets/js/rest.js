@@ -4,9 +4,9 @@ var rootURL = "http://localhost/ASUPAT/app/shared/api";
 
 
 
-
+/*GET*/
 function getAbout() {
-    console.log('getMision');
+    console.log('getAbout');
     $.ajax({
         type: 'GET',
         url: rootURL+'/about',
@@ -28,4 +28,60 @@ function getContacto() {
             renderContacto(data);
         }
     });
+}
+
+function getTableroAdopciones() {
+    console.log('getTableroAdopciones');
+    $.ajax({
+        type: 'GET',
+        url: rootURL+'/adopciones',
+        dataType: "json", // data type of response
+        success: function(data) {
+            renderTableroAdopciones(data);
+        }
+    });
+}
+
+function getGaleria() {
+    
+    console.log('getGaleria');
+    $.ajax({
+        type: 'GET',
+        url: rootURL+'/galeria',
+        dataType: "json", // data type of response
+        success: function(data) {
+            renderGaleria(data);
+        }
+    });
+}
+
+
+/*DELETE*/
+function deleteAdopcion(id) {
+	console.log('deleteAdopcion');
+	$.ajax({
+		type: 'DELETE',
+		url: rootURL + '/adopcion/'+id ,
+		success: function(data, textStatus, jqXHR){
+			alert('Adopcion Eliminada');
+		},
+		error: function(jqXHR, textStatus, errorThrown){
+			alert('deleteAdopcion error');
+		}
+	});
+}
+
+
+function deleteImagen(id) {
+	console.log('deleteImagen');
+	$.ajax({
+		type: 'DELETE',
+		url: rootURL + '/imagen/'+id ,
+		success: function(data, textStatus, jqXHR){
+			alert('Imagen Eliminada');
+		},
+		error: function(jqXHR, textStatus, errorThrown){
+			alert('deleteImagen error');
+		}
+	});
 }

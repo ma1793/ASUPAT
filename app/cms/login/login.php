@@ -13,7 +13,7 @@
                     <ul class="nav pull-right">
 
                     </ul>
-                    <a class="brand" href="listPortfolio.html"><span class="second">Admin</span></a>
+                    <a class="brand" href="..\contacto\editContacto.php"><span class="second">Admin</span></a>
                 </div>
             </div>
         </div>

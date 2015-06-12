@@ -1,5 +1,5 @@
 
-var Contacto;function renderAbout(contacto){
+function renderAbout(contacto){
     $('#ID_about_definicion').val(contacto.definicion);
     $('#ID_about_fundacion').val(contacto.fundacion);
     $('#ID_about_mision').val(contacto.mision);

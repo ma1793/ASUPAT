@@ -9,11 +9,11 @@
                                 <i class="icon-caret-down"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="../index.html">Cerrar CMS</a></li>
+                                <li><a tabindex="-1" href="..\..\components\home\homeAsu.php">Cerrar CMS</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <a class="brand" href="listPortfolio.html"><span class="second">ASUPAT</span></a>
+                    <a class="brand" href="..\contacto\editContacto.php"><span class="second">ASUPAT</span></a>
                 </div>
             </div>
         </div>';
