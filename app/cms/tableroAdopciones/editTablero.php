@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <?php include '../../shared/web/header/headerCMS.php'; ?>
-
+        <script src="editTablero.js"></script>
     </head>
     <body>
 
@@ -17,7 +17,8 @@
                 <div class="span9">
                     <h1 class="page-title">Editar Mascota en Adopción</h1>
                     <div class="btn-toolbar">
-                        <button class="btn btn-primary"><i class="icon-save"></i> Actualizar</button>
+                        <button  onclick="updateAdopcion()" class="btn btn-primary"><i class="icon-save" ></i> Actualizar</button>
+                        <button  onclick="addAdopcion()" class="btn btn-primary"><i class="icon-save" ></i> Guardar</button>
                         <a href="#myModal" data-toggle="modal" class="btn">Eliminar</a>
                         <div class="btn-group">
                         </div>
@@ -30,19 +31,33 @@
                         <div id="myTabContent" class="tab-content">
                             <div class="tab-pane active in" id="home">
                                 <form id="tab">          
-                                    <label>Raza</label>
-                                    <input type="text" value="" >
+                                    <label>Nombre</label>
+                                    <input type="text" id="ID_adopcion_nombre" >
                                     
-                                    <label>Informacíon</label>
-                                    <input type="text" value="" >
+                                    <label>Raza</label>
+                                    <input type="text" id="ID_adopcion_raza" >
+                                    
+                                    <label>Ubicacion</label>
+                                    <input type="text" id="ID_adopcion_ubicacion">
+                                    
+                                    <label>Telefono</label>
+                                    <input type="text" id="ID_adopcion_telefono" >
+                                    
+                                    <label>Edad</label>
+                                    <input type="text" id="ID_adopcion_edad" >
                                     
                                     <label>Fecha</label>
-                                    <input type="date" value="" >
+                                    <input type="date" id="ID_adopcion_fecha" >
+                                    
+                                    <label>Comentario</label>
+                                    <textarea id="ID_adopcion_comentario" rows="3" style="width: 75%;">
+                                    </textarea>
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="profile">
-                                <form id="tab2">       
-                                    <input type="file">
+                                <form id="tab2"> 
+                                    <label>Link Imagen</label>
+                                    <input type="text" value="" id="ID_adopcion_imageLink" style="width: 75%;">
                                 </form>
                             </div>
                         </div>

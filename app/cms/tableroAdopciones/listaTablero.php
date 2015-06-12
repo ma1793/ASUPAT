@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <?php include '../../shared/web/header/headerCMS.php'; ?>
+        <script src="listaTablero.js"></script>
+
     </head>
     <body>
         <?php include '../../shared/web/menu/menuCMS.php'; ?>
@@ -15,7 +17,7 @@
                 <div class="span9">
                     <h1 class="page-title">Tablero de Adopciones</h1>
                     <div class="btn-toolbar">
-                        <button class="btn btn-primary" ><i class="icon-plus"></i> Nueva Adopción</button>
+                        <button onclick="javascript:location.href='../tableroAdopciones/editTablero.php'"  class="btn btn-primary" ><i class="icon-plus"></i> Nueva Adopción</button>
                         <div class="btn-group">
                         </div>
                     </div>
@@ -24,23 +26,17 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
+                                    <th>Nombre</th>
                                     <th>Raza</th>
-                                    <th>Información</th>
+                                    <th>Ubicacion</th>
+                                    <th>Telefono</th>
+                                    <th>Edad</th>
                                     <th>Fecha</th>
                                     <th style="width: 26px;"></th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Beagle</td>
-                                    <td>5 Meses</td>
-                                    <td>11-12-2015</td>
-                                    <td>
-                                        <a href="editTablero.php"><i class="icon-pencil"></i></a>
-                                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                                    </td>
-                                </tr>
+                            <tbody id="ID_adopciones">
+                                
                             </tbody>
                         </table>
                     </div>
