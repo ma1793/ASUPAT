@@ -2,12 +2,8 @@
 <html lang="en">
     <head>
         <?php include '../../shared/web/header/headerCMS.php'; ?>
-        <style>
-button.hidden {
-    visibility: hidden;
-}
-</style>
-        
+        <script src="listaGaleria.js"></script>
+
     </head>
     <body>
         <?php include '../../shared/web/menu/menuCMS.php'; ?>
@@ -19,12 +15,9 @@ button.hidden {
                 <?php include '../../shared/web/sidebar/sidebarCMS.php'; ?>
 
                 <div class="span9">
-                    <h1 class="page-title">Galería</h1>
+                    <h1 class="page-title">Galeria de Imagenes</h1>
                     <div class="btn-toolbar">
-                        <form action="editGaleria.php?modo=a" method="get">
-                            <input class="hidden" type="text" name="modo" value="a"><br>
-                        <button class="btn btn-primary" type="submit"><i class="icon-plus"></i> Nueva Foto</button>
-                        </form>
+                        <button onclick="javascript:location.href='../galeria/editGaleria.php'"  class="btn btn-primary" ><i class="icon-plus"></i> Nueva Imagen</button>
                         <div class="btn-group">
                         </div>
                     </div>
@@ -34,22 +27,13 @@ button.hidden {
                                 <tr>
                                     <th>#</th>
                                     <th>Descripción</th>
-                                    <th>Categoría</th>
-                                    <th>Fecha</th>
+                                    <th>Caregoría</th>
+                                    <th>URL</th>
                                     <th style="width: 26px;"></th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Actividad Mensual</td>
-                                    <td>Eventos</td>
-                                    <td>11-12-2015</td>
-                                    <td>
-                                        <a href="editGaleria.php?modo=b"><i class="icon-pencil"></i></a>
-                                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                                    </td>
-                                </tr>
+                            <tbody id="ID_galeria">
+                                
                             </tbody>
                         </table>
                     </div>
