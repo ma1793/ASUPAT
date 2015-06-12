@@ -46,7 +46,7 @@
                     </div>
                     
                     <div class="description" id="form uno agenda" style="display: none">
-                        <?php include '../../shared/web/form/form.php'; ?>
+                        <?php include '../../shared/web/form/buyForm.php'; ?>
                     </div>
                 </div>
                 
@@ -82,7 +82,7 @@
                     </div>
                     
                     <div class="description" id="form dos agenda" style="display: none">
-                        <?php include '../../shared/web/form/form.php'; ?>
+                        <?php include '../../shared/web/form/buyForm.php'; ?>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     </div>
                     
                     <div class="description" id="form uno planificador" style="display: none">
-                        <?php include '../../shared/web/form/form.php'; ?>
+                        <?php include '../../shared/web/form/buyForm.php'; ?>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     </div>
                     
                     <div class="description" id="form dos planificador" style="display: none">
-                        <?php include '../../shared/web/form/form.php'; ?>
+                        <?php include '../../shared/web/form/buyForm.php'; ?>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                     </div>
                     
                     <div class="description" id="form uno calendario" style="display: none">
-                        <?php include '../../shared/web/form/form.php'; ?>
+                        <?php include '../../shared/web/form/buyForm.php'; ?>
                     </div>
                 </div>
             </div>
@@ -216,7 +216,7 @@
                     </div>
                     
                     <div class="description" id="form dos calendario" style="display: none">
-                        <?php include '../../shared/web/form/form.php'; ?>
+                        <?php include '../../shared/web/form/buyForm.php'; ?>
                     </div>
                 </div>
             </div>
