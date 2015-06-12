@@ -37,16 +37,16 @@
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <div class="ui inverted button">Apadrinar</div>
+                                                        <p>Telefono:  <a>8717-5432</a></p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/padrinos/1.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header">Lolo</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date"> Feb 2015</span>
                                             </div>
                                         </div>
                                         <div class="extra content">
@@ -65,16 +65,16 @@
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <div class="ui inverted button">Apadrinar</div>
+                                                        <p>Telefono:  <a>8613-1234</a></p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/padrinos/2.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header">Carl</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Jun 2015</span>
                                             </div>
                                         </div>
                                         <div class="extra content">
@@ -93,16 +93,16 @@
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <div class="ui inverted button">Apadrinar</div>
+                                                        <p>Telefono:  <a>8414-1432</a></p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/padrinos/3.jpg">
                                         </div>
                                         <div class="content">
-                                            <a class="header">Team Fu</a>
+                                            <a class="header">Ambar</a>
                                             <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
+                                                <span class="date">Mar 2015</span>
                                             </div>
                                         </div>
                                         <div class="extra content">
@@ -118,97 +118,7 @@
 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="ui column centered grid">
-                        <div class="three column centered row">
-                            <div class="column">
-                                <div class="ui special cards">
-                                    <div class="card">
-                                        <div class="dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <div class="ui inverted button">Apadrinar</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
-                                        </div>
-                                        <div class="content">
-                                            <a class="header">Team Fu</a>
-                                            <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="large purple money icon"></i>
-                                                10K
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="ui special cards">
-                                    <div class="card">
-                                        <div class="dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <div class="ui inverted button">Apadrinar</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
-                                        </div>
-                                        <div class="content">
-                                            <a class="header">Team Fu</a>
-                                            <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="large purple money icon"></i>
-                                                10K
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="ui special cards">
-                                    <div class="card">
-                                        <div class="dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <div class="ui inverted button">Apadrinar</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
-                                        </div>
-                                        <div class="content">
-                                            <a class="header">Team Fu</a>
-                                            <div class="meta">
-                                                <span class="date">Create in Sep 2014</span>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <a>
-                                                <i class="large purple money icon"></i>
-                                                10K
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+              
             </div>
         </div>
 
@@ -228,15 +138,12 @@
                                 <div class="ui orange cards">
                                     <div class="card">
                                         <a class="image">
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/padrinos/6.jpg">
                                         </a>
                                         <div class="content">
-                                            <a class="header">Elliot Fu</a>
-                                            <div class="meta">
-                                                <a>Friends</a>
-                                            </div>
+                                            
                                             <div class="description">
-                                                Elliot Fu is a film-maker from New York.
+                                                Ha ayudado con su servicio
                                             </div>
                                         </div>
                                     </div>
@@ -246,38 +153,18 @@
                                 <div class="ui orange cards">
                                     <div class="card">
                                         <a class="image">
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/padrinos/7.jpg">
                                         </a>
                                         <div class="content">
-                                            <a class="header">Elliot Fu</a>
-                                            <div class="meta">
-                                                <a>Friends</a>
-                                            </div>
+                                            
                                             <div class="description">
-                                                Elliot Fu is a film-maker from New York.
+                                                Siempre tiene deseos de apoyar las campañas
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="column">
-                                <div class="ui orange cards">
-                                    <div class="card">
-                                        <a class="image">
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
-                                        </a>
-                                        <div class="content">
-                                            <a class="header">Elliot Fu</a>
-                                            <div class="meta">
-                                                <a>Friends</a>
-                                            </div>
-                                            <div class="description">
-                                                Elliot Fu is a film-maker from New York.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

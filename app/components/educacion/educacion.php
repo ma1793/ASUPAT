@@ -2,52 +2,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ASUPAT | Educacion</title>
     
-    <?php include '../../shared/web/header/header.php'; ?>
+    <?php include '../../shared/web/header/header.php';
+    function endsWith($haystack, $needle) {
+    // search forward starting from end minus needle length characters
+    return $needle === "" || (($temp = strlen($haystack) - strlen($needle)) >= 0 && strpos($haystack, $needle, $temp) !== FALSE);
+    
+    }
+    ?>
     <script src="educacion.js"></script>
 </head>
 <body id="home">
     <!-- Menu -->
     <?php include '../../shared/web/menu/menu.php'; ?>
     
-    <div class="ui segment" id="example1" style="width: 70%;">
-        <div class="ui right rail">
-            <div class="ui teal sticky segment">
-                <div class="ui link ordered list">
-                    <a class="item">Nombre del articulo</a>
-                    <a class="item">Nombre del articulo</a>
-                    <a class="item">Nombre del articulo</a>
-                </div>
-            </div>
-        </div>
+    <div class="ui segment" id="example1" style="width: 100%;">
+      
         
-        <div class="ui teal inverted piled segment">
+        <div class="ui orange inverted piled segment fluid">
             <div class="ui very relaxed stackable page grid">
                 <div class="row">
                     <div class="column">
-                        <h2 class="center aligned ui header">
-                            Educacion | Conozca el mundo de los perros
-                        </h2>
+                        <h1 class="center aligned  inverted ui header">
+                             Conozca el mundo de los perros
+                        </h1>
                     </div>
                 </div>
             </div>
             <div id="content">
-                <h4 class="ui horizontal header divider">
-                    <i class="circular book icon"></i>
-                    Nombre del articulo
-                </h4>
-                <embed src="Ensayo1.pdf#toolbar=0" width="100%" height="600px">
-                <h4 class="ui horizontal header divider">
-                    <i class="circular book icon"></i>
-                    Nombre del articulo
-                </h4>
-                <embed src="Ensayo1.pdf#toolbar=0" width="100%" height="600px">
-                <h4 class="ui horizontal header divider">
-                    <i class="circular book icon"></i>
-                    Nombre del articulo
-                </h4>
-                <embed src="Ensayo1.pdf#toolbar=0" width="100%" height="600px">
+                <?php
+                    $dir    = "../../components/educacion/";
+                    $files1 = scandir($dir);
+                    foreach($files1 as $directory){
+                        if($directory=='.' or $directory=='..' ){
+                            
+                        }else{
+                            if(endsWith($directory, '.pdf')){
+                                echo '<h4 class="ui horizontal header divider">';
+                                echo '<i class="circular book icon"></i>';
+                                echo substr($directory, 0, strlen($directory)-4);
+                                echo '</h4>';
+                                echo "<embed src=\"".$directory."\"#toolbar=0\" width=\"100%\" height=\"600px\">";
+                            }
+                        }
+                    } 
+                ?>
             </div>  
         </div>
     </div>

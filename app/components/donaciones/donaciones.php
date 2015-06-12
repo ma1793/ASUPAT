@@ -31,37 +31,7 @@
                         <img class="ui Large circular image" src="../../../assets/images/perroVision.jpg">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="ui two column relaxed stackable grid">
-                        <div class="column">
-                            <div class="ui list">
-                                <div class="item">
-                                    <img class="ui top aligned avatar image" src="../../../assets/images/contact.jpg">
-                                    <div class="content">
-                                        <div class="header">Contacto</div>
-                                        Siempre a disposición
-                                        <div class="list">
-                                            <div class="item">
-                                                <i class="right triangle icon"></i>
-                                                <div class="content">
-                                                    <a class="header">Sub Header</a>
-                                                    <div class="description">Sub Description</div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <i class="right triangle icon"></i>
-                                                <div class="content">
-                                                    <a class="header">Sub Header</a>
-                                                    <div class="description">Sub Description</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+             
             </div>
         </div>
 

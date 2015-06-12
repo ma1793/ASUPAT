@@ -28,12 +28,10 @@ echo '<div class="ui inverted masthead segment">
                                 <div class="ui dropdown item">
                                     Otras Actividades <i class="dropdown icon"></i>
                                     <div class="menu">
-                                        <a href="../../components/acerca/acerca.php" class="item">Entrenamiento</a>
-                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Tienda</a>                                           
-                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Consejos Mascota</a>  
+                                        <a href="../../components/tienda/tienda.php" class="item">Tienda</a>                                           
                                         <a href="../../components/voluntarios/voluntarios.php" class="item">Voluntarios</a>
                                         <a href="../../components/feedback/feedback.php" class="item">FeedBack</a>
-                                        <a href="../../components/mision_vision/mision_vision.php" class="item">Preguntas Frecuentes</a>
+                                        <a href="../../components/preguntasFrecuentes/preguntasFrecuentes.php" class="item">Preguntas Frecuentes</a>
                                         <a href="../../components/enlacesInteres/enlacesInteres.php" class="item">Enlaces de Interes</a>
                                         <a href="../../components/mapaSitio/mapaSitio.php" class="item">Mapa del Sitio </a>
                                         <a href="../../cms/login/login.php" class="item"><i class="user icon"></i><b>ADMIN</b></a>  

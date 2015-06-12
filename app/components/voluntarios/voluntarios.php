@@ -25,7 +25,7 @@
                         <div class="ui items">
                             <div class="item">
                                 <div class="image">
-                                    <img src="../../../assets/images/wireframe/elliot.jpg">
+                                    <img src="../../../assets/images/voluntarios/voluntario_1.jpg">
                                 </div>
                                 <div class="content">
                                     <a class="header">VOLUNTARIADO PRESENCIAL - VETERINARIA/O, AUXILIAR O TECNICO DE VETERINARIA</a>
@@ -33,7 +33,7 @@
                                         <span>Descripcion</span>
                                     </div>
                                     <div class="description">
-                                        <p>Necesitamos urgentemente de una persona que ayude nuestra veterinaria con las curas, que viva cerca de Tarragona, que venga a echarnos una mano en el día y preferiblemente de forma continuada (dos, tres o mas veces por semana). ¿Quienes somos?
+                                        <p style="text-align: justify;">Necesitamos urgentemente de una persona que ayude nuestra veterinaria con las curas, que viva cerca de Tarragona, que venga a echarnos una mano en el día y preferiblemente de forma continuada (dos, tres o mas veces por semana). ¿Quienes somos?
                                             El Hogar ProVegan es una organización sin ánimo de lucro que rescata y recupera animales víctimas de la explotación, educa en el veganismo y lucha por los Derechos Animales y contra el especismo.
                                         </p>
                                     </div>
@@ -42,15 +42,13 @@
                                         <i class="resize vertical icon"></i>
                                     </div>
 
-                                    <h4 class="ui horizontal header divider">
-                                        <i class="resize vertical icon"></i>
-                                    </h4>
-                                    <div class="content" id="perfil uno" style="display: none">
+                                    
+                                    <div class="content" id="perfil uno" style="display: none;padding-top: 15px">
                                         <div class="meta">
                                             <span>Perfil</span>
                                         </div>
                                         <div class="description">
-                                            <p>Necesitamos una/un veterinaria/o, o tecnica/o o auxiliar de veterinaria, que nos ayude con las tareas diarias del santuario, que viva por la zona (Tarragona, Marçà) y esté dispuestos a trabajar duro, de forma responsable y comprometida.
+                                            <p style="text-align: justify;">Necesitamos una/un veterinaria/o, o tecnica/o o auxiliar de veterinaria, que nos ayude con las tareas diarias del santuario, que viva por la zona (Tarragona, Marçà) y esté dispuestos a trabajar duro, de forma responsable y comprometida.
                                                 Conscientes de que en un Santuario siempre hay movimiento, surgen nuevas situaciones y hay que adaptarse.
                                             </p>
                                         </div>
@@ -58,10 +56,15 @@
                                     </div>
                                 </div>
                             </div>
+                      
+                            
+                            <h4 class="ui horizontal header divider">
+                                        <i class="resize vertical icon"></i>
+                                    </h4>
                           
                             <div class="item">
                                 <div class="image">
-                                    <img src="../../../assets/images/wireframe/elliot.jpg">
+                                    <img src="../../../assets/images/voluntarios/voluntario_2.jpg">
                                 </div>
                                 <div class="content">
                                     <a class="header">VOLUNTARIADO PRESENCIAL - CUIDADOR DE ANIMALES</a>
@@ -69,7 +72,7 @@
                                         <span>Descripcion</span>
                                     </div>
                                     <div class="description">
-                                        <p>Necesitamos urgentemente de un cuidador de animales, que viva cerca de Tarragona, que venga a echarnos una mano en el día y preferiblemente de forma continuada (dos, tres o mas veces por semana). ¿Quienes somos?
+                                        <p style="text-align: justify;">Necesitamos urgentemente de un cuidador de animales, que viva cerca de Tarragona, que venga a echarnos una mano en el día y preferiblemente de forma continuada (dos, tres o mas veces por semana). ¿Quienes somos?
                                             El Hogar ProVegan es una organización sin ánimo de lucro que rescata y recupera animales víctimas de la explotación, educa en el veganismo y lucha por los Derechos Animales y contra el especismo.
                                             El Hogar ProVegan desarrolla, así mismo, una importante labor social divulgativa y de concienciación, llevando a cabo acciones educativas, dirigidas a niños y adultos, que promueven los valores de respeto, justicia e igualdad, haciéndolos extensivos a todos los individuos sin distinción de especie. Para ello, nos servimos de instrumentos específicos diseñados para este fin como son las charlas en centros educativos u ocupacionales, las campañas a pie de calle o la edición de material didáctico propio.
                                         </p>
@@ -81,12 +84,12 @@
 
 
 
-                                    <div class="content" id="perfil dos" style="display: none">
+                                    <div class="content" id="perfil dos" style="display: none; padding-top: 15px">
                                         <div class="meta">
                                             <span>Perfil</span>
                                         </div>
-                                        <div class="description">
-                                            <p>Necesitamos un cuidador de animales, que nos ayude con las tareas diarias del santuario, que viva por la zona (Tarragona, Marçà) y esté dispuestos a trabajar duro, de forma responsable y comprometida.
+                                        <div class="description" >
+                                            <p style="text-align: justify;">Necesitamos un cuidador de animales, que nos ayude con las tareas diarias del santuario, que viva por la zona (Tarragona, Marçà) y esté dispuestos a trabajar duro, de forma responsable y comprometida.
                                                 Conscientes de que en un Santuario siempre hay movimiento, surgen nuevas situaciones y hay que adaptarse.
                                             </p>
                                             <?php include '../../shared/web/form/form.php'; ?>
@@ -124,15 +127,12 @@
                                 <div class="ui orange cards">
                                     <div class="card">
                                         <a class="image">
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/voluntarios/voluntario_Actual_1.jpg">
                                         </a>
                                         <div class="content">
-                                            <a class="header">Elliot Fu</a>
-                                            <div class="meta">
-                                                <a>Friends</a>
-                                            </div>
+                                            
                                             <div class="description">
-                                                Elliot Fu is a film-maker from New York.
+                                                Trabajando con niños
                                             </div>
                                         </div>
                                     </div>
@@ -142,38 +142,18 @@
                                 <div class="ui orange cards">
                                     <div class="card">
                                         <a class="image">
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
+                                            <img src="../../../assets/images/voluntarios/voluntario_Actual_2.jpg">
                                         </a>
                                         <div class="content">
-                                            <a class="header">Elliot Fu</a>
-                                            <div class="meta">
-                                                <a>Friends</a>
-                                            </div>
+                                            
                                             <div class="description">
-                                                Elliot Fu is a film-maker from New York.
+                                                Manifestación pasifica en contra del maltrato animal
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="column">
-                                <div class="ui orange cards">
-                                    <div class="card">
-                                        <a class="image">
-                                            <img src="../../../assets/images/wireframe/elliot.jpg">
-                                        </a>
-                                        <div class="content">
-                                            <a class="header">Elliot Fu</a>
-                                            <div class="meta">
-                                                <a>Friends</a>
-                                            </div>
-                                            <div class="description">
-                                                Elliot Fu is a film-maker from New York.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

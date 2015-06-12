@@ -6,7 +6,6 @@ echo '<div class="ui blue inverted form segment">
             Formulario de ingreso
         </h4>
         <form class="ui blue inverted form segment">
-            <p>Lets go ahead and get you signed up.</p>
             <div class="two fields">
                 <div class="field">
                     <label>Nombre</label>
