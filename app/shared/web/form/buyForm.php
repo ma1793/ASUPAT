@@ -2,7 +2,7 @@
 
 echo '<div class="ui blue inverted form segment">
         <h4 class="ui horizontal header divider">
-            <i class="loading circular black add user icon"></i>
+            <i class="loading circular black mail icon"></i>
             Ingrese los siguientes datos para realizar su pedido
         </h4>
         <form class="ui blue inverted form segment">
