@@ -17,35 +17,8 @@
                 </div>
                 <div class="row">
                     <div class="ui column centered grid">
-                        <div class="three column centered row">
-                            <div class="column">
-                                <a class="ui orange card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                 <div class="ui orange  pointing label">
-                                        Descripción 
-                                    </div>
-                                
-                            </div>
-                            <div class="column">
-                                <a class="ui orange card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui orange  pointing label">
-                                        Descripción 
-                                    </div>
-                            </div>
-                            <div class="column">
-                                <a class="ui orange card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                            </div>
+                        <div class="three column centered row" id="ID_galeria_eventos">
+               
                         </div>
                     </div>
                 </div>
@@ -63,37 +36,9 @@
                 </div>
                 <div class="row">
                     <div class="ui column centered grid">
-                        <div class="three column centered row">
-                            <div class="column">
-                                <a class="ui blue card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui blue pointing label">
-                                        Descripción 
-                                    </div>
-                            </div>
-                            <div class="column">
-                                <a class="ui blue card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui blue pointing label">
-                                        Descripción 
-                                    </div>
-                            </div>
-                            <div class="column">
-                                <a class="ui blue card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui blue pointing label">
-                                        Descripción 
-                                    </div>
-                            </div>
+                        <div class="three column centered row" id="ID_galeria_animalesAdoptados">
+                            
+                      
                         </div>
                     </div>
                 </div>
@@ -110,37 +55,9 @@
                 </div>
                 <div class="row">
                     <div class="ui column centered grid">
-                        <div class="three column centered row">
-                            <div class="column">
-                                <a class="ui orange card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui orange pointing label">
-                                        Descripción 
-                                    </div>
-                            </div>
-                            <div class="column">
-                                <a class="ui orange card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui orange pointing label">
-                                        Descripción 
-                                    </div>
-                            </div>
-                            <div class="column">
-                                <a class="ui orange card">
-                                    <div class="image">
-                                        <img src="../../../assets/images/wireframe/square-image.png">
-                                    </div>
-                                </a>
-                                <div class="ui orange pointing label">
-                                        Descripción 
-                                </div>
-                            </div>
+                        <div class="three column centered row" id="ID_galeria_finalesFelices">
+                           
+                       
                         </div>
                     </div>
                 </div>
