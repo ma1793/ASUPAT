@@ -42,7 +42,7 @@
                     </div>
                     <div class="ui right floated primary button uno" onclick="mostrarForm('form uno agenda')">
                         Comprar
-                        <i class="resize vertical icon"></i>
+                        <i class="money vertical icon"></i>
                     </div>
                     
                     <div class="description" id="form uno agenda" style="display: none">
@@ -78,7 +78,7 @@
                     </div>
                     <div class="ui right floated primary button uno" onclick="mostrarForm('form dos agenda')">
                         Comprar
-                        <i class="resize vertical icon"></i>
+                        <i class="money vertical icon"></i>
                     </div>
                     
                     <div class="description" id="form dos agenda" style="display: none">
@@ -116,7 +116,7 @@
                     </div>
                     <div class="ui right floated primary button uno" onclick="mostrarForm('form uno planificador')">
                         Comprar
-                        <i class="resize vertical icon"></i>
+                        <i class="money vertical icon"></i>
                     </div>
                     
                     <div class="description" id="form uno planificador" style="display: none">
@@ -151,7 +151,7 @@
                     </div>
                     <div class="ui right floated primary button uno" onclick="mostrarForm('form dos planificador')">
                         Comprar
-                        <i class="resize vertical icon"></i>
+                        <i class="money vertical icon"></i>
                     </div>
                     
                     <div class="description" id="form dos planificador" style="display: none">
@@ -187,7 +187,7 @@
                     </div>
                     <div class="ui right floated primary button uno" onclick="mostrarForm('form uno calendario')">
                         Comprar
-                        <i class="resize vertical icon"></i>
+                        <i class="money vertical icon"></i>
                     </div>
                     
                     <div class="description" id="form uno calendario" style="display: none">
@@ -212,7 +212,7 @@
                     </div>
                     <div class="ui right floated primary button uno" onclick="mostrarForm('form dos calendario')">
                         Comprar
-                        <i class="resize vertical icon"></i>
+                        <i class="money vertical icon"></i>
                     </div>
                     
                     <div class="description" id="form dos calendario" style="display: none">
