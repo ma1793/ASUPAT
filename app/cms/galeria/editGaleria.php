@@ -35,7 +35,11 @@
                                     <input type="text" id="ID_imagen_descripcion" style="width: 30%;" >
                                     
                                     <label>Categoria</label>
-                                    <input type="number" id="ID_imagen_categoria" style="width: 5%;">
+                                    <select id="ID_imagen_categoria" >
+                                        <option value="1">Eventos</option>
+                                        <option value="2">Animales Adoptados</option>
+                                        <option value="3">Finales Felices</option>
+                                    </select>
                                   
                                 </form>
                             </div>
